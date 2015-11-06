@@ -16,5 +16,7 @@ namespace De.Brickmakers.Tutorials.EF.DatabaseLayer.Entities
         public float Weight { get; set; }
 
         public Standard Standard { get; set; }
+
+        public Teacher Teacher { get; set; }
     }
 }
